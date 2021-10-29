@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  overflow: hidden;
+}
+
+.contactListScrollableDiv {
+  overflow-y: scroll;
+  height: calc(100vh - 55px);
+  padding: 10px;
+}
+
+.cardInfo {
+  box-shadow: none !important;
+}
+
+.contactAlphabetDivider::before {
+  width: 0% !important;
+}
+
+.cardInfoDetails {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: center;
+  box-shadow: none !important;
+  padding: 5px;
+}
+
+.tabPanelDataInnerDetails {
+  padding: 10px 0px 0px 0px !important
+}
+
+.cardInfoChipDetails {
+  overflow: hidden;
+}
