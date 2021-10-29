@@ -35,7 +35,7 @@ function ContactListContainer() {
                 const updatedUserList = setUserDetailsAsPerRequirement(userList.results);
                 setUserList(updatedUserList);
             } else {
-                console.log("error in API call");
+                console.log("error in API random call");
             }
         });
     }, []);
